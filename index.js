@@ -70,16 +70,16 @@ const deleteTask = (taskid) => {
   const filterToDos = () => {
     console.log("filter working")
     
-    if (completedToggle == true) {
-      state.tasks.sort((a, b) => b.completed - a.completed);
-      completedToggle = false
-    }
-    else (completedToggle == false) {
-    state.tasks.sort((a, b) => a.completed - b.completed);
-    completedToggle = true
-    }
+    // if (completedToggle == true) {
+    //   state.tasks.sort((a, b) => b.completed - a.completed);
+    //   completedToggle = false
+    // }
+    // else (completedToggle == false) {
+    // state.tasks.sort((a, b) => a.completed - b.completed);
+    // completedToggle = true
+    // }
     
-    render();
+    // render();
     
   };
 
